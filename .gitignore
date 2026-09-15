@@ -10,11 +10,17 @@ __pycache__/
 # Go
 /bin/
 
+# Amp orb runtime state (portal URLs written by `amp orb services ensure`).
+.amp/portals/
+
 # Editors / OS
 .idea/
-.vscode/
 .DS_Store
 .env
 
 # Keep the port-override template even where a broader .env* exclude exists.
 !.env.example
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
