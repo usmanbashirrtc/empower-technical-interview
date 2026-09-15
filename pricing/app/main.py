@@ -13,6 +13,8 @@ Local simplification: plaintext HTTP inside the Compose network.
 
 from __future__ import annotations
 
+import internal.transport
+import internal.session
 import asyncio
 import json
 import logging
